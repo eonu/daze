@@ -49,6 +49,12 @@ to the original Scikit-Learn function.
   _TPR, FPR, TNR, FNR, Precision, Recall, F1_.
 - Supports both classifiers and pre-computed confusion matrices.
 
+## Installation
+
+```console
+pip install daze
+```
+
 ## Documentation
 
 The package API remains largely the same as that of `sklearn.metrics.plot_confusion_matrix` with a few additions and changes to the function arguments:
@@ -72,9 +78,7 @@ The package API remains largely the same as that of `sklearn.metrics.plot_confus
 </p>
 </details>
 
-<!-- Additions to sklearn API - also mention normalize -->
-<!-- Link to docs -->
-<!-- Table of measurese -->
+Documentation for the package is available on [Read The Docs](https://daze.readthedocs.io/en/latest).
 
 ## Examples
 
