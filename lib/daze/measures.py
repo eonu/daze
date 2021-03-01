@@ -25,7 +25,7 @@ class Accuracy(_SummaryMeasure):
         return TP(self.cm)().sum() / self.cm.sum()
 
 class Count(_ColumnMeasure, _RowMeasure):
-    """A prediction and true measure that computes the counts of rows/columns."""
+    """A row and column measure that computes the counts of rows/columns."""
     name, label = 'c', '#'
 
     def __call__(self, axis):
